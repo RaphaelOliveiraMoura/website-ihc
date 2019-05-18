@@ -8,6 +8,7 @@
     <!-- Configurações padrões para todas as páginas -->
     <link rel="stylesheet" href="../../css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <div class="header">
@@ -18,8 +19,40 @@
             <a href="#"><li class="selected">Curso SI Una</li></a>
         </ul>
     </div>
+    <div class="background">
+        <img src="../../assets/background-una.jpg">
+    </div>
     <div class="content">
-        
+        <div class="card">
+            <span class="title">Centro Universitário Una Contagem</span>
+            A unidade reúne cursos de graduação e pós-graduação em diversas áreas do conhecimento, sendo que sete cursos de graduação são do Centro Universitário Una, ofertados no Polo Contagem. <br> <br>
+            A infraestrutura diferenciada oferece aos alunos amplos espaços acadêmicos, laboratórios de informática, área de convivência com lanchonete, e biblioteca com amplo acervo específico. <br> <br>
+            A Una Contagem também conta com diversos projetos em que alunos, sob orientação de professores, realizam atendimentos ao público gratuitamente: Núcleo de Apoio contábil e Fiscal (NAF), NPJ / EsajUna (atendimento jurídico) e a Clínica de Psicologia.
+        </div>
+        <div class="card">
+            <span class="title">Grade Curricular</span>
+            <select class="select-modules" name="modules" id="select-modules" onchange="updateTable()">
+                <option value="0">Módulo 1A</option>
+                <option value="1">Módulo 1B</option>
+                <option value="1">Módulo 2A</option>
+                <option value="2">Módulo 2B</option>
+                <option value="3">Módulo 3A</option>
+                <option value="4">Módulo 3B</option>
+                <option value="5">Módulo 4A</option>
+                <option value="6">Módulo 4B</option>
+            </select>
+            <table id="grade-table">
+                <thead>
+                    <tr>
+                        <td>Matéria</td>
+                        <td>Carga Horária</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
     </div>
     <div class="footer">
         <span class="title">Desenvolvedores</span>
@@ -44,4 +77,7 @@
         <p>Contagem, 2019</p>
     </div>
 </body>
+
+<script src="./index.js"></script>
+
 </html>

@@ -189,6 +189,9 @@ body{
     width: 100%;
     text-align: center; 
     padding: 16px;
+    position: static;
+    left: 0;
+    bottom: 0;
 }
 
 .footer .title{
