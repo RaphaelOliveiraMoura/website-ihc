@@ -1,13 +1,17 @@
-Para desenvolvimento do projeto optamos por utilizar o git como forma de versionamento do código, possibilitando um trabalho em equipe mais organizado e fácil de desenvolver.
-Para possibilitar o compartilhamento entre a dupla de forma remota, utilizamos o GitHub para armazenamento e controle de versão.
+## Documentação desenvolvida e revisada por:
+ - Amanda Galvão Baece
+ - Raphael de Oliviera Moura
 
-A estrutura do projeto se baseia em 3 categorias, de modo que algumas delas possuem subcategorias.
+Para desenvolvimento do projeto optamos por utilizar o git como forma de versionamento do código, possibilitando um trabalho em equipe mais ágil e organizado.
+Para possibilitar o compartilhamento entre a dupla de forma remota, utilizamos o GitHub para armazenamento em nuvem.
+
+A estrutura do projeto se baseia em 3 categorias, de modo que em algumas delas possuem subcategorias.
 Segue abaixo a representação:
 
 - src
     - assets
     - css
-    - view
+    - views
         - descrição-escolar
         - grade-curricular-una
         - trabalho-atual
