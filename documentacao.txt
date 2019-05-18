@@ -1,0 +1,33 @@
+Para desenvolvimento do projeto optamos por utilizar o git como forma de versionamento do código, possibilitando um trabalho em equipe mais organizado e fácil de desenvolver.
+Para possibilitar o compartilhamento entre a dupla de forma remota, utilizamos o GitHub para armazenamento e controle de versão.
+
+A estrutura do projeto se baseia em 3 categorias, de modo que algumas delas possuem subcategorias.
+Segue abaixo a representação:
+
+- src
+    - assets
+    - css
+    - view
+        - descrição-escolar
+        - grade-curricular-una
+        - trabalho-atual
+- complementos
+
+* src (source): representa a pasta raiz da codificação do website, onde se localiza todo o código fonte. 
+* assets: representa a pasta onde é armazenado todas imagens do website
+* css: contém a estilização comum entre todas as páginas da aplicação
+* views: é subdivida em outras pastas, onde cada pasta representa uma página diferente no sistema.
+* complementos: não se refere a uma pasta específica e sim a um conjunto de arquivos que complementam o projeto tais como:
+ - documentacao.txt: o documentao atual
+ - orientacoes.pdf: referente as especificações para desenvolvimento do trabalho
+ - README.md: referente ao conteudo apresentado na página do GitHub
+
+Para cada pasta dentro de views, foi criado um 'index.html' para representar a estrutua de dados daquela página.
+Um index.css para representar a estilização específica de cada página.
+E em alguns casos um index.js referente a alguma função daquela página.
+
+## Relacionamento entre o sistema
+Como dito anteriormente a pasta css contém a estilização comum para todas as páginas do website. Possibilitando reuso de várias parte de código.
+E dentro de cada view(página) específica contém um index.css contendo característica de estilização específica daquela página.
+
+Adotamos esta forma de estruturar o projeto por fins de organização e facilidade de alguma alteração/modificação futura.
