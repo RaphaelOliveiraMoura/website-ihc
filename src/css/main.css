@@ -12,11 +12,15 @@ body{
     Configuração do container do cabeçalho da página
 */
 .header{
-    background-color: aqua;
+    box-shadow: 0 0 6px 0px #585a5ae0;
+    background-color: #ff0000;
     padding: 16px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: sticky;
+    left: 0;
+    top: 0;
 }
 
 /*
@@ -42,18 +46,159 @@ body{
     Configuração da fonte dos items do cabeçalho
 */
 .header ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 600;
+    margin-left: 16px;
+}
+
+/*
+    Container com o conteudo da pagina
+*/
+.content{
+    background-color: #25242414;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+/*
+    Card com as informações de cada um dos autores
+*/
+.content .card{
+    box-shadow: 0 0 6px 0px #585a5a38;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin: 6px;
+    padding: 16px;
+}
+
+/*
+    Imagem de perfil dos autores
+*/
+.content .profile-image{
+    width: 16em;
+    height: 16em;
+    border-radius: 100%;
+}
+
+/*
+    Titulo como nome dos autores do projeto
+*/
+.content .card .title{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+/*
+    Subtitulo dos autores do projeto
+*/
+.content .card .subtitle{
+    color: #888787;
+    font-size: 0.8em;
+}
+
+/*
+    Descrição com informações de cada autor do projeto
+*/
+.content .card .description{
+    padding: 26px;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+/*
+    Remoção da margem de qualquer tag h3
+*/
+.content h3{
+    margin: 0px;
+}
+
+/*
+    Container que contem todas habilidades
+*/
+.content .skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/*
+    Representa o container de uma habilidade especifica
+*/
+.content .skills .skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+/*
+    Descricao da habilidade
+*/
+.content .skills span{
+    color: #888787;
+    font-size: 0.8em;
+}
+
+/*
+    Container com as bolinhas de cada habilidade
+*/
+.content .skills .points{
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+    Bolinha preenchida
+*/
+.content .skills .fill-point{
+    width: 1em;
+    height: 1em;
+    background-color: cadetblue;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 1px;
+}
+
+/*
+    Bolinha vazia
+*/
+.content .skills .empty-point{
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 1px;
 }
 
 /*
     Configuração do rodapé da página para deixa-la sempre fixa na parte de baixo da página
 */
 .footer{
+    background-color: #ff0000;
+    color: white;
     width: 100%;
-    position: sticky;
-    left: 0;
-    bottom: 0;
     text-align: center; 
+}
+
+/*
+    Estilo para qualquer bootao criado na pagina
+*/
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px 8px;
+    margin: 0;
 }
