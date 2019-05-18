@@ -14,10 +14,10 @@ body{
 .header{
     box-shadow: 0 0 6px 0px #585a5ae0;
     background-color: #ff0000;
-    padding: 16px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     position: sticky;
     left: 0;
     top: 0;
@@ -29,7 +29,10 @@ body{
 .header ul{
     list-style: none;
     margin: 0;
-    padding: 0;
+}
+
+.header ul .selected{
+    background-color: #3e39393d;
 }
 
 /*
@@ -39,17 +42,17 @@ body{
     display: inline-block;
     font-size: 1em;
     text-transform: uppercase;
-    margin-left: 4px;
+    margin-left: 16px;
+    padding: 16px;
 }
 
 /*
     Configuração da fonte dos items do cabeçalho
 */
-.header ul li a{
+.header ul a{
     color: white;
     text-decoration: none;
     font-weight: 600;
-    margin-left: 16px;
 }
 
 /*
@@ -114,13 +117,6 @@ body{
 }
 
 /*
-    Remoção da margem de qualquer tag h3
-*/
-.content h3{
-    margin: 0px;
-}
-
-/*
     Container que contem todas habilidades
 */
 .content .skills{
@@ -137,6 +133,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 0 16px;
+    align-items: center;
 }
 
 /*
@@ -161,10 +158,12 @@ body{
 .content .skills .fill-point{
     width: 1em;
     height: 1em;
-    background-color: cadetblue;
+    background-color: #888787;
     border-style: solid;
     border-radius: 100%;
     border-width: 1px;
+    border-color: #888787;
+    margin: 1px;
 }
 
 /*
@@ -177,6 +176,8 @@ body{
     border-style: solid;
     border-radius: 100%;
     border-width: 1px;
+    border-color: #888787;
+    margin: 1px;
 }
 
 /*
@@ -187,6 +188,35 @@ body{
     color: white;
     width: 100%;
     text-align: center; 
+    padding: 16px;
+}
+
+.footer .title{
+    text-transform: uppercase;
+}
+
+.footer .developers{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0px;
+}
+
+.footer .developers .profile{
+    width: 50%;
+}
+
+.footer .developers .profile .social-networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer .developers .profile .social-networks img{
+    width: 2em;
+    height: 2em;
+    margin: 6px;
+    border-radius: 100%;
+    padding: 8px;
 }
 
 /*
@@ -201,4 +231,16 @@ body{
     border-width: 1px;
     padding: 4px 8px;
     margin: 0;
+}
+
+/*
+    Remoção da margem de qualquer tag h3
+*/
+h3{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    font-size: 0.8em;
 }
