@@ -22,8 +22,8 @@
     box-shadow: 0 0 6px 0px #585a5a38;
     position: absolute;
     left: 8%;
-    width: 12em;
-    height: 12em;
+    width: 10em;
+    height: 10em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,13 +35,18 @@
 
 .content .card img{
     width: 8em;
-    height: 3em;
+    height: 2.5em;
 }
 
 .content .card .title{
     margin: 16px;
     font-weight: 700;
     font-size: 1.3em;
+}
+
+.content .card .subtitle{
+    font-size: 1.1em;
+    margin: 8px;
 }
 
 .content .description{
@@ -54,7 +59,19 @@
     box-shadow: 0 0 1px 1px #79797947;
     padding: 4px 16px;
     font-family: 'Montserrat', sans-serif;
+    width: auto;
+    text-align-last: center;
+    cursor: pointer;
 }
+
+.content .select-modules:hover{
+    border-radius: 360px;
+    box-shadow: 0 0 1px 1px #79797947;
+    padding: 4px 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 10.2em;
+}
+
 
 .content table{
     margin: 16px;

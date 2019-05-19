@@ -47,6 +47,14 @@ body{
     padding: 16px;
 }
 
+.header ul li:hover{
+    background-color: #f10000;
+}
+
+.header ul .selected:hover{
+    background-color: #3e39393d;
+}
+
 /*
     Configuração da fonte dos items do cabeçalho
 */
@@ -220,7 +228,11 @@ body{
     height: 2em;
     margin: 6px;
     border-radius: 100%;
-    padding: 8px;
+    padding: 2px;
+}
+
+.footer .developers .profile .social-networks img:hover{
+    background-color: white;
 }
 
 /*
