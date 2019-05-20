@@ -1,0 +1,31 @@
+.content{
+    padding-top: 56px;
+}
+
+.content .card:nth-child(1) .logo-image img{
+    width: 16em;
+    height: 8em;
+}
+
+.content .card:nth-child(2) .logo-image img{
+    width: 8em;
+    height: 8em;
+}
+
+.content .card .logo-image{
+    box-shadow: 0 0 6px 0px #585a5a38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 360px;
+    background-color: white;
+    width: 12em;
+    height: 12em;;
+    position: relative;
+    bottom: 4em;
+    padding: 16px;
+}
+
+.content .card .title{
+    margin-top: -50px;
+}
