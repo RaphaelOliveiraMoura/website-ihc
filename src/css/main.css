@@ -89,10 +89,12 @@ body{
     margin: 6px;
     padding: 16px;
     cursor: pointer;
+    transition-duration: 600ms;
 }
 
 .content .card:hover{
-    box-shadow: 0 0 8px 0px #585a5a61
+    box-shadow: 0 0 8px 1px #585a5a61;
+    transition-duration: 600ms;
 }
 
 /*

@@ -66,18 +66,26 @@
     margin: 16px;
     cursor: pointer;
     border-radius: 6px;
+    transition-duration: 300ms;
 }
 
 .content .card .skill-content:hover{
     width: 95%;
     box-shadow: 0 0 8px 0px #585a5a38;
     padding: 16px;
-    transition-duration: 600ms;
+    transition-duration: 300ms;
     background-color: #ff0000;
     color: white;
+    font-size: 1.2em;
 }
 
 .content .card .skill-content:hover .badge{
     background-color: white;
     filter: blur(0.5px);
+    padding: 16px;
+    transition-duration: 600ms;
+}
+
+.content p{
+    font-size: 1em;
 }
