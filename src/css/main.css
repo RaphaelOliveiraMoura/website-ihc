@@ -88,6 +88,11 @@ body{
     width: 40%;
     margin: 6px;
     padding: 16px;
+    cursor: pointer;
+}
+
+.content .card:hover{
+    box-shadow: 0 0 8px 0px #585a5a61
 }
 
 /*
