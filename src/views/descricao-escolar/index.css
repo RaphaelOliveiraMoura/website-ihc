@@ -36,8 +36,8 @@
 }
 
 .content .badge {
-    width: 5.5em;
-    height: 6em;
+    width: 3.5em;
+    height: 4em;
     padding: 8px;
     border-radius: 360px;
 }
@@ -66,7 +66,7 @@
     margin: 16px;
     cursor: pointer;
     border-radius: 6px;
-    transition-duration: 300ms;
+    transition-duration: 200ms;
 }
 
 .content .card .skill-content:hover{
@@ -83,7 +83,7 @@
     background-color: white;
     filter: blur(0.5px);
     padding: 16px;
-    transition-duration: 600ms;
+    transition-duration: 400ms;
 }
 
 .content p{
