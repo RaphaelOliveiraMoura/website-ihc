@@ -94,6 +94,8 @@ body{
 
 .content .card:hover{
     box-shadow: 0 0 8px 1px #585a5a61;
+    margin-left: 20px;
+    margin-right: 20px;
     transition-duration: 600ms;
 }
 
