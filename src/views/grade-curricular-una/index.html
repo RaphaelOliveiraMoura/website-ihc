@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,25 +12,46 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="shortcut icon" href="https://www.additioapp.com/wp-content/uploads/2017/04/cropped-favicon.png" />
 </head>
+
 <body>
     <div class="header">
         <ul>
-            <a href="../../index.html"><li>Home</li></a>
-            <a href="../../views/trabalho-atual/index.html"><li>Trabalho atual</li></a>
-            <a href="../../views/descricao-escolar/index.html"><li>Vida Acadêmica</li></a>
-            <a href="#"><li class="selected">Curso SI Una</li></a>
+            <a href="../../index.html">
+                <li>Home</li>
+            </a>
+            <a href="../../views/trabalho-atual/index.html">
+                <li>Trabalho atual</li>
+            </a>
+            <a href="../../views/descricao-escolar/index.html">
+                <li>Vida Acadêmica</li>
+            </a>
+            <a href="#">
+                <li class="selected">Curso SI Una</li>
+            </a>
         </ul>
+    </div>
+    <div class="modal" id="modal">
+        <div class="container">
+            <div class="modal-header">
+                <img src="../../assets/icon-close-button.jpg" onclick="closeModal()">
+            </div>
+            <div class="modal-content">
+
+            </div>
+        </div>
     </div>
     <div class="content">
         <div class="card">
             <span class="title">Centro Universitário Una Contagem</span>
             <span class="subtitle">Sistemas da Informação</span>
             <div class="description">
-                O curso de Sistemas de Informação da Una prepara o estudante para atuar com a gerência, desenvolvimento e 
-                implantação de sistemas de informação e recursos de tecnologia da informação em praticamente todas as 
-                instituições, públicas ou privadas, de todos os tamanhos e setores, nos mais diversos ramos de atividade, 
+                O curso de Sistemas de Informação da Una prepara o estudante para atuar com a gerência, desenvolvimento
+                e
+                implantação de sistemas de informação e recursos de tecnologia da informação em praticamente todas as
+                instituições, públicas ou privadas, de todos os tamanhos e setores, nos mais diversos ramos de
+                atividade,
                 principalmente empresas de tecnologia. <br><br>
-                Além disso, o curso trabalha o lado empreendedor do aluno possibilitando a ele a criação de sua própria 
+                Além disso, o curso trabalha o lado empreendedor do aluno possibilitando a ele a criação de sua própria
                 empresa na área de consultoria e desenvolvimento.
             </div>
             <div class="badges">
@@ -47,7 +69,7 @@
         <div class="parallax"></div>
         <div class="card">
             <div class="image-badge">
-                 <img src="../../assets/logo-una.png">
+                <img src="../../assets/logo-una.png">
             </div>
             <span class="title">Grade Curricular</span>
             <select class="select-modules" name="modules" id="select-modules" onchange="updateTable()">
@@ -78,7 +100,8 @@
                 <p>Raphael de Oliveira Moura</p>
                 <div class="social-networks">
                     <a href="https://github.com/RaphaelOliveiraMoura"><img src="../../assets/icon-github.png"></a>
-                    <a href="https://www.linkedin.com/in/raphael-oliveira-212663179/"><img src="../../assets/icon-linkedin.png"></a>
+                    <a href="https://www.linkedin.com/in/raphael-oliveira-212663179/"><img
+                            src="../../assets/icon-linkedin.png"></a>
                 </div>
             </div>
             <div class="profile">
@@ -87,8 +110,8 @@
                     <a href="#"><img src="../../assets/icon-facebook.png"></a>
                     <a href="#"><img src="../../assets/icon-linkedin.png"></a>
                 </div>
-            </div>           
-        </div>  
+            </div>
+        </div>
         <p>Website desenvolvido pelo curso de Sistemas da Informação, Una Contagem</p>
         <p>Contagem, 2019</p>
     </div>
