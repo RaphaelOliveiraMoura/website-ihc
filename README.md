@@ -1,15 +1,15 @@
-## Table of contents
-1. [Description](#description)
-   1. [Content](#content)
-   1. [Screens](#screens)
-1. [Installation](#installation)
-1. [Technologies](#technologies)
-1. [Architeture](#architeture)
-1. [Contributing](#contributing)
-   1. [People](#people)
-   1. [License agreements](#license-agreements)
+## Table of contents 📋
+1. [Description](#description) ✔️
+   1. [Content](#content) ✔️
+   1. [Screens](#screens) ✔️
+1. [Installation](#installation) ✔️
+1. [Technologies](#technologies) ✔️
+1. [Architeture](#architeture) ⚠️
+1. [Contributing](#contributing) ✔️
+   1. [People](#people) ✔️
+   1. [License agreements](#license-agreements) ✔️
 
-## Description
+## Description 🔷
 
 ### Content
 This is a project made on work for the Human Computer Interface discipline at UNA university.
@@ -23,22 +23,22 @@ It is a website that has informations such as developers profiles, academic form
 ![Alt text](./screens/curso-si-1.png "Curso SI")
 ![Alt text](./screens/curso-si-2.png "Curso SI")
 
-## Installation
+## Installation 🔷
 To run and test the website localy, just clone the project or downloaded with a zip extension:
 ```
 git clone https://github.com/RaphaelOliveiraMoura/website-ihc.git
 ```
 After, you need enter inside the src folder and open the index.html file.
 
-## Technologies
+## Technologies 🔷
 To build this project we used the current technologies:
 * HTML 5
 * CSS
 * JavaScript
 
-## Architeture
+## Architeture 🔷
 
-## Contributing
+## Contributing 🔷
 #### Contributors
 * Amanda Galvão Baece
 * Raphael de Oliveira Moura
